@@ -50,5 +50,7 @@ deploy:
   provider: npm
   email: justin.poirier@gmail.com
   api_key: b82152c7-fb81-4272-81a2-e1d41b67bbe9
+  on:
+    tags: true
 
 
