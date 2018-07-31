@@ -3,7 +3,11 @@
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-data",
+    "dirty",
+    "rollback"
+    "dirty relationships
   ],
   "repository": "",
   "license": "MIT",
