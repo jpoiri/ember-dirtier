@@ -1,5 +1,4 @@
-
-https://img.shields.io/travis/jpoiri/ember-dirtier.svg
+[![Build Status](https://travis-ci.org/jpoiri/ember-dirtier.svg?branch=master)](https://travis-ci.org/jpoiri/ember-dirtier)
 
 ember-dirtier
 ==============================================================================
