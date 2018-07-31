@@ -6,7 +6,7 @@ const { Model } = DS;
 export default Route.extend({
     model() {
 
-        console.dir(Model);
+        //console.dir(Model);
 
         //return this.get('store').createRecord('artist');
 
