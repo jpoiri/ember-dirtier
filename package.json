@@ -6,7 +6,7 @@
     "ember-addon",
     "ember-data",
     "dirty",
-    "rollback"
+    "rollback",
     "dirty relationships
   ],
   "repository": "",
