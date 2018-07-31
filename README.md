@@ -33,11 +33,10 @@ ember install ember-dirtier
 ```
 
 
-Usage
+Properties
 ------------------------------------------------------------------------------
-### Properties
 
-#### dirty
+### dirty
 
 Returns true if any attribute or relationship is dirty, otherwise returns false.
 
@@ -48,7 +47,7 @@ artist.set('name', 'john');
 
 debug(artist.get('dirty)); // true
 ```
-#### dirtyAttributes
+### dirtyAttributes
 
 Returns an array of dirty attributes
 
@@ -61,7 +60,7 @@ artist.set('genre', 'country');
 debug(artist.get('dirtyAttributes')); // ['genre', 'name']
 ```
 
-#### dirtyRelationships
+### dirtyRelationships
 
 Returns an array of dirty relationships
 
@@ -80,7 +79,7 @@ artist.set('albums', albums);
 debug(artist.get('dirtyRelationships')); // ['albums']
 ```
 
-#### dirtyProperties
+### dirtyProperties
 
 Returns an array of dirty properties
 
@@ -99,7 +98,7 @@ artist.set('albums', albums);
 debug(artist.get('dirtyProperties')); // ['albums', 'genre', 'name']
 ```
 
-#### hasDirtyAttribute
+### hasDirtyAttribute
 
 Returns true if at least one attribute is dirty, otherwise returns false.
 
@@ -112,7 +111,7 @@ artist.set('genre', 'country');
 debug(artist.get('hasDirtyAttribute')); // true
 ```
 
-#### hasDirtyRelationship
+### hasDirtyRelationship
 
 Returns an array of dirty properties
 
@@ -131,7 +130,7 @@ artist.set('albums', albums);
 debug(artist.get('hasDirtyRelationship')); // true
 ```
 
-#### ${propertyName}Dirty
+### ${propertyName}Dirty
 
 Returns true if a property is dirty, otherwise returns false. 
 
@@ -153,9 +152,9 @@ debug(artist.get('nameDirty')); // true
 debug(artist.get('genreDirty')) // true
 debug(artist.get('albumsDirty')) // true
 ```
-### Functions
+## Functions
 
-#### isDirty()
+### isDirty()
 
 Returns true if model is dirty, otherwise returns false.
 
@@ -166,7 +165,7 @@ artist.set('name', 'john');
 
 debug(artist.isDirty()); // true
 ```
-#### rollback()
+### rollback()
 
 Rollback the model. This will rollback the model and all its associated relationships.
 
