@@ -1,3 +1,7 @@
+
+![Travis (.org)](https://img.shields.io/travis/justin.poirier@gmail.com/ember-dirtier.svg)
+
+
 ember-dirtier
 ==============================================================================
 
