@@ -1,6 +1,5 @@
 
-![Travis (.org)](https://img.shields.io/travis/jpoiri/ember-dirtier.svg)
-
+https://img.shields.io/travis/jpoiri/ember-dirtier.svg
 
 ember-dirtier
 ==============================================================================
