@@ -117,7 +117,7 @@ debug(artist.get('hasDirtyAttribute')); // true
 
 ### hasDirtyRelationship
 
-Returns an array of dirty properties
+Returns true if at least one relationship is dirty, otherwise returns false
 
 ```
 const artist = this.get('store').createRecord('artist');
