@@ -1,6 +1,6 @@
 {
   "name": "ember-dirtier",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "This addon extends ember-data by providing deeper dirty tracking",
   "keywords": [
     "ember-addon",
