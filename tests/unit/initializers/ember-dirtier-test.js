@@ -109,7 +109,7 @@ module('Unit | Initializer | ember-dirtier', function(hooks) {
 			const pristineArtist = store.createRecord('artist');
 
 			dirtyArtist.set('name', 'Areosmith');
-
+		
 			album.set('artist', dirtyArtist);
 			assert.equal(album._isBelongsToRelationshipDirty('artist'), true, 'Test is equal to true when the relationship is dirty');
 
@@ -125,19 +125,13 @@ module('Unit | Initializer | ember-dirtier', function(hooks) {
 			assert.equal(album._isBelongsToRelationshipDirty('artist'), false, 'Test is equal to false when the relationship is null');
 
 			album.set('artist', '');
+		
 			assert.equal(
 				album._isBelongsToRelationshipDirty('artist'),
 				false,
 				'Test is equal to false when the relationship is an empty string'
 			);
-
-			album.set('artist', []);
-			assert.equal(
-				album._isBelongsToRelationshipDirty('artist'),
-				false,
-				'Test is equal to false when the relationship is an empty array'
-			);
-
+			
 			assert.equal(album._isBelongsToRelationshipDirty(null), false, 'Test is equal to false when the relationship name is null');
 		});
 	});
