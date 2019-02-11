@@ -29,6 +29,14 @@ In addition, it adds the following properties and functions to the DS.model clas
 * `isDirty()`
 * `rollback()`
 
+
+Compatibility
+------------------------------------------------------------------------------
+
+* Ember.js v2.18 or above
+* Ember CLI v2.13 or above
+
+
 Installation
 ------------------------------------------------------------------------------
 
@@ -192,7 +200,6 @@ debug(artist.get('genre')); // undefined
 debug(album.get('name')); // undefined
 ```
 
-Contributing
 ------------------------------------------------------------------------------
 
 ### Installation
@@ -215,6 +222,4 @@ Contributing
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
 
 License
-------------------------------------------------------------------------------
-
 This project is licensed under the [MIT License](LICENSE.md).
