@@ -2,6 +2,8 @@
 [![npm version](https://badge.fury.io/js/ember-dirtier.svg)](https://badge.fury.io/js/ember-dirtier)
 [![Ember Observer Score](http://emberobserver.com/badges/ember-dirtier.svg)](http://emberobserver.com/addons/ember-dirtier)
 
+### Deprecated! 
+
 ember-dirtier
 ==============================================================================
 
